@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557712BB2422D8D300E566D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557712BA2422D8D300E566D2 /* AppDelegate.swift */; };
+		557712BD2422D8D300E566D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557712BC2422D8D300E566D2 /* SceneDelegate.swift */; };
+		557712BF2422D8D300E566D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557712BE2422D8D300E566D2 /* ViewController.swift */; };
+		557712C22422D8D300E566D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557712C02422D8D300E566D2 /* Main.storyboard */; };
+		557712C52422D8D300E566D2 /* Seascape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 557712C32422D8D300E566D2 /* Seascape.xcdatamodeld */; };
+		557712C72422D8D500E566D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557712C62422D8D500E566D2 /* Assets.xcassets */; };
+		557712CA2422D8D500E566D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557712C82422D8D500E566D2 /* LaunchScreen.storyboard */; };
+		557712D52422D8D500E566D2 /* SeascapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557712D42422D8D500E566D2 /* SeascapeTests.swift */; };
+		557712E02422D8D500E566D2 /* SeascapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557712DF2422D8D500E566D2 /* SeascapeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557712D12422D8D500E566D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557712AF2422D8D300E566D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557712B62422D8D300E566D2;
+			remoteInfo = Seascape;
+		};
+		557712DC2422D8D500E566D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557712AF2422D8D300E566D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557712B62422D8D300E566D2;
+			remoteInfo = Seascape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		557712B72422D8D300E566D2 /* Seascape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seascape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		557712BA2422D8D300E566D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		557712BC2422D8D300E566D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		557712BE2422D8D300E566D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		557712C12422D8D300E566D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		557712C42422D8D300E566D2 /* Seascape.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Seascape.xcdatamodel; sourceTree = "<group>"; };
+		557712C62422D8D500E566D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557712C92422D8D500E566D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557712CB2422D8D500E566D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557712D02422D8D500E566D2 /* SeascapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeascapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557712D42422D8D500E566D2 /* SeascapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeascapeTests.swift; sourceTree = "<group>"; };
+		557712D62422D8D500E566D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557712DB2422D8D500E566D2 /* SeascapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeascapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557712DF2422D8D500E566D2 /* SeascapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeascapeUITests.swift; sourceTree = "<group>"; };
+		557712E12422D8D500E566D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557712B42422D8D300E566D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557712CD2422D8D500E566D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557712D82422D8D500E566D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557712AE2422D8D300E566D2 = {
+			isa = PBXGroup;
+			children = (
+				557712B92422D8D300E566D2 /* Seascape */,
+				557712D32422D8D500E566D2 /* SeascapeTests */,
+				557712DE2422D8D500E566D2 /* SeascapeUITests */,
+				557712B82422D8D300E566D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557712B82422D8D300E566D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557712B72422D8D300E566D2 /* Seascape.app */,
+				557712D02422D8D500E566D2 /* SeascapeTests.xctest */,
+				557712DB2422D8D500E566D2 /* SeascapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557712B92422D8D300E566D2 /* Seascape */ = {
+			isa = PBXGroup;
+			children = (
+				557712BA2422D8D300E566D2 /* AppDelegate.swift */,
+				557712BC2422D8D300E566D2 /* SceneDelegate.swift */,
+				557712BE2422D8D300E566D2 /* ViewController.swift */,
+				557712C02422D8D300E566D2 /* Main.storyboard */,
+				557712C62422D8D500E566D2 /* Assets.xcassets */,
+				557712C82422D8D500E566D2 /* LaunchScreen.storyboard */,
+				557712CB2422D8D500E566D2 /* Info.plist */,
+				557712C32422D8D300E566D2 /* Seascape.xcdatamodeld */,
+			);
+			path = Seascape;
+			sourceTree = "<group>";
+		};
+		557712D32422D8D500E566D2 /* SeascapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				557712D42422D8D500E566D2 /* SeascapeTests.swift */,
+				557712D62422D8D500E566D2 /* Info.plist */,
+			);
+			path = SeascapeTests;
+			sourceTree = "<group>";
+		};
+		557712DE2422D8D500E566D2 /* SeascapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557712DF2422D8D500E566D2 /* SeascapeUITests.swift */,
+				557712E12422D8D500E566D2 /* Info.plist */,
+			);
+			path = SeascapeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557712B62422D8D300E566D2 /* Seascape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557712E42422D8D500E566D2 /* Build configuration list for PBXNativeTarget "Seascape" */;
+			buildPhases = (
+				557712B32422D8D300E566D2 /* Sources */,
+				557712B42422D8D300E566D2 /* Frameworks */,
+				557712B52422D8D300E566D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seascape;
+			productName = Seascape;
+			productReference = 557712B72422D8D300E566D2 /* Seascape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557712CF2422D8D500E566D2 /* SeascapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557712E72422D8D500E566D2 /* Build configuration list for PBXNativeTarget "SeascapeTests" */;
+			buildPhases = (
+				557712CC2422D8D500E566D2 /* Sources */,
+				557712CD2422D8D500E566D2 /* Frameworks */,
+				557712CE2422D8D500E566D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557712D22422D8D500E566D2 /* PBXTargetDependency */,
+			);
+			name = SeascapeTests;
+			productName = SeascapeTests;
+			productReference = 557712D02422D8D500E566D2 /* SeascapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557712DA2422D8D500E566D2 /* SeascapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557712EA2422D8D500E566D2 /* Build configuration list for PBXNativeTarget "SeascapeUITests" */;
+			buildPhases = (
+				557712D72422D8D500E566D2 /* Sources */,
+				557712D82422D8D500E566D2 /* Frameworks */,
+				557712D92422D8D500E566D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557712DD2422D8D500E566D2 /* PBXTargetDependency */,
+			);
+			name = SeascapeUITests;
+			productName = SeascapeUITests;
+			productReference = 557712DB2422D8D500E566D2 /* SeascapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557712AF2422D8D300E566D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Suhaas Ravela";
+				TargetAttributes = {
+					557712B62422D8D300E566D2 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					557712CF2422D8D500E566D2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 557712B62422D8D300E566D2;
+					};
+					557712DA2422D8D500E566D2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 557712B62422D8D300E566D2;
+					};
+				};
+			};
+			buildConfigurationList = 557712B22422D8D300E566D2 /* Build configuration list for PBXProject "Seascape" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 557712AE2422D8D300E566D2;
+			productRefGroup = 557712B82422D8D300E566D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557712B62422D8D300E566D2 /* Seascape */,
+				557712CF2422D8D500E566D2 /* SeascapeTests */,
+				557712DA2422D8D500E566D2 /* SeascapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557712B52422D8D300E566D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557712CA2422D8D500E566D2 /* LaunchScreen.storyboard in Resources */,
+				557712C72422D8D500E566D2 /* Assets.xcassets in Resources */,
+				557712C22422D8D300E566D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557712CE2422D8D500E566D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557712D92422D8D500E566D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557712B32422D8D300E566D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557712BF2422D8D300E566D2 /* ViewController.swift in Sources */,
+				557712BB2422D8D300E566D2 /* AppDelegate.swift in Sources */,
+				557712C52422D8D300E566D2 /* Seascape.xcdatamodeld in Sources */,
+				557712BD2422D8D300E566D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557712CC2422D8D500E566D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557712D52422D8D500E566D2 /* SeascapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557712D72422D8D500E566D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557712E02422D8D500E566D2 /* SeascapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557712D22422D8D500E566D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557712B62422D8D300E566D2 /* Seascape */;
+			targetProxy = 557712D12422D8D500E566D2 /* PBXContainerItemProxy */;
+		};
+		557712DD2422D8D500E566D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557712B62422D8D300E566D2 /* Seascape */;
+			targetProxy = 557712DC2422D8D500E566D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		557712C02422D8D300E566D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557712C12422D8D300E566D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		557712C82422D8D500E566D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557712C92422D8D500E566D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557712E22422D8D500E566D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		557712E32422D8D500E566D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557712E52422D8D500E566D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW759ZL35G;
+				INFOPLIST_FILE = Seascape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suhaas.Seascape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557712E62422D8D500E566D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW759ZL35G;
+				INFOPLIST_FILE = Seascape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suhaas.Seascape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		557712E82422D8D500E566D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW759ZL35G;
+				INFOPLIST_FILE = SeascapeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suhaas.SeascapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seascape.app/Seascape";
+			};
+			name = Debug;
+		};
+		557712E92422D8D500E566D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW759ZL35G;
+				INFOPLIST_FILE = SeascapeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suhaas.SeascapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seascape.app/Seascape";
+			};
+			name = Release;
+		};
+		557712EB2422D8D500E566D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW759ZL35G;
+				INFOPLIST_FILE = SeascapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suhaas.SeascapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seascape;
+			};
+			name = Debug;
+		};
+		557712EC2422D8D500E566D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FW759ZL35G;
+				INFOPLIST_FILE = SeascapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.suhaas.SeascapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seascape;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557712B22422D8D300E566D2 /* Build configuration list for PBXProject "Seascape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557712E22422D8D500E566D2 /* Debug */,
+				557712E32422D8D500E566D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557712E42422D8D500E566D2 /* Build configuration list for PBXNativeTarget "Seascape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557712E52422D8D500E566D2 /* Debug */,
+				557712E62422D8D500E566D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557712E72422D8D500E566D2 /* Build configuration list for PBXNativeTarget "SeascapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557712E82422D8D500E566D2 /* Debug */,
+				557712E92422D8D500E566D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557712EA2422D8D500E566D2 /* Build configuration list for PBXNativeTarget "SeascapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557712EB2422D8D500E566D2 /* Debug */,
+				557712EC2422D8D500E566D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		557712C32422D8D300E566D2 /* Seascape.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				557712C42422D8D300E566D2 /* Seascape.xcdatamodel */,
+			);
+			currentVersion = 557712C42422D8D300E566D2 /* Seascape.xcdatamodel */;
+			path = Seascape.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 557712AF2422D8D300E566D2 /* Project object */;
+}
